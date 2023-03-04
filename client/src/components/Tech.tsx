@@ -2,7 +2,7 @@ import React from "react";
 
 const Tech = () => {
   return (
-    <div className="bg-neutral-100 flex justify-center items-center text-center">
+    <div className="bg-neutral-100 flex justify-center items-center text-start lg:text-center">
       <div className="flex flex-col py-14 px-6 lg:py-32 lg:px-24">
         <h1 className="text-xl lg:text-4xl font-bold">
           RELIABLE TECH FOR STAYING CLOSE

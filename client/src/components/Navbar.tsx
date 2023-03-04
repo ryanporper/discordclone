@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-16 bg-indigo-500 flex justify-between items-center text-center px-4 mx-auto">
+    <div className="w-full h-16 bg-indigo-600 flex justify-between items-center text-center px-4 mx-auto">
       <a className="text-white text-2xl font-bold" href="/">
         Discord
       </a>
