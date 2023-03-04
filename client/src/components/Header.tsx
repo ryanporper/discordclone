@@ -2,18 +2,18 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full bg-indigo-500 p-32 flex justify-center items-center text-center">
-      <div className="w-2/3">
-        <h1 className="text-white text-6xl font-bold mb-8">
+    <div className="w-full bg-indigo-500 flex justify-center items-center text-start md:text-center">
+      <div className="py-14 px-6 lg:py-32 lg:px-24 ">
+        <h1 className="text-white font-bold text-2xl md:text-6xl">
           IMAGINE A PLACE...
         </h1>
-        <h3 className="text-white font-bold text-xl">
+        <h3 className="text-white font-bold text-l mt-10 md:text-xl">
           ...where you can belong to a school club, a gaming group, or a
           worldwide art community. Where just you and a handful of friends can
           spend time together. A place that makes it easy to talk every day and
           hang out more often.
         </h3>
-        <div className="flex justify-evenly">
+        <div className="flex flex-col lg:flex-row lg:justify-center">
           <button className="bg-white text-lg rounded-full py-4 px-8 mt-6 mr-6 hover:text-indigo-400">
             Download for Windows
           </button>
