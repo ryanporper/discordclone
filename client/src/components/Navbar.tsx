@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-16 bg-indigo-600 flex justify-between items-center text-center px-4 mx-auto">
+    <div className="w-full h-16 bg-indigo-600 flex justify-between items-center text-center px-4 lg:px-32 mx-auto">
       <a className="text-white text-2xl font-bold" href="/">
         Discord
       </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex items-center ">
-        <button className="bg-white hover:text-indigo-400 rounded-full p-2 text-xs">
+        <button className="bg-white hover:text-indigo-400 hover:shadow-lg rounded-full p-2 text-xs">
           Open Discord
         </button>
         <div onClick={toggleNav} className="block cursor-pointer lg:hidden">

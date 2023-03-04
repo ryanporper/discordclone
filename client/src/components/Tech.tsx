@@ -17,7 +17,7 @@ const Tech = () => {
         </div>
         <h4 className="text-3xl font-bold">Ready to start your journey?</h4>
         <div>
-          <button className=" bg-indigo-500 hover:bg-indigo-400 text-white text-xl rounded-full mt-10 py-4 px-8">
+          <button className=" bg-indigo-500 hover:bg-indigo-400 hover:shadow-xl text-white text-xl rounded-full mt-10 py-4 px-8">
             Download for Windows
           </button>
         </div>

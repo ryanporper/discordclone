@@ -134,7 +134,7 @@ const Footer = () => {
         <a className="text-white text-xl font-bold" href="https://discord.com/">
           Discord
         </a>
-        <button className=" bg-indigo-500 rounded-full text-sm font-bold text-white py-2 px-4 hover:bg-indigo-400">
+        <button className=" bg-indigo-500 rounded-full text-sm font-bold text-white py-2 px-4 hover:bg-indigo-400 hover:shadow-lg">
           <a href="https://discord.com/">Open Discord</a>
         </button>
       </div>
