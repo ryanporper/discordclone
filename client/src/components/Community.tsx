@@ -1,8 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Community = () => {
   return (
-    <div className="bg-white flex justify-center items-center text-start">
+    <motion.div
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 0.5, type: "tween" }}
+      className="bg-white flex justify-center items-center text-start"
+    >
       <div className="flex flex-col lg:flex-row lg:justify-center py-14 px-6 lg:py-32 lg:px-24">
         <div className=" h-72 w-full bg-green-600 lg:mr-20 rounded-2xl flex items-center justify-center">
           Img
@@ -18,7 +23,7 @@ const Community = () => {
           </p>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

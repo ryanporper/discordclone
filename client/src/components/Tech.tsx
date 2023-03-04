@@ -1,8 +1,13 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
-    <div className="bg-neutral-100 flex justify-center items-center text-start lg:text-center">
+    <motion.div
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 0.5, type: "twwen" }}
+      className="bg-neutral-100 flex justify-center items-center text-start lg:text-center"
+    >
       <div className="flex flex-col py-14 px-6 lg:py-32 lg:px-24">
         <h1 className="text-xl lg:text-4xl font-bold">
           RELIABLE TECH FOR STAYING CLOSE
@@ -22,7 +27,7 @@ const Tech = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
