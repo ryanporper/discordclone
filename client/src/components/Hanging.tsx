@@ -5,8 +5,8 @@ const Hanging = () => {
     <div className="w-full bg-neutral-100 p-32 flex justify-center items-center text-start">
       <div className="flex w-full">
         <div className="w-full mr-20">
-          <h2 className="text-4xl font-bold mb-4">Where hanging out is easy</h2>
-          <p>
+          <h2 className="text-5xl font-bold mb-4">Where hanging out is easy</h2>
+          <p className="text-xl">
             Grab a seat in a voice channel when you’re free. Friends in your
             server can see you’re around and instantly pop in to talk without
             having to call.

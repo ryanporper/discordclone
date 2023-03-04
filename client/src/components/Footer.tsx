@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="w-full bg-slate-800 py-14">
       <div className="flex justify-evenly">
         <div>
-          <h4 className=" text-indigo-500 font-bold text-2xl">
+          <h4 className=" text-indigo-500 font-bold text-3xl">
             IMAGINE A PLACE
           </h4>
           <p className="text-white">Dropdown</p>
@@ -102,7 +102,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full flex justify-between p-6 mt-10 items-center border-t-2 border-indigo-400">
-        <a className="text-white text-lg font-bold" href="https://discord.com/">
+        <a className="text-white text-xl font-bold" href="https://discord.com/">
           Discord
         </a>
         <button className=" bg-indigo-400 rounded-full text-sm font-bold text-white p-3 hover:bg-indigo-300">

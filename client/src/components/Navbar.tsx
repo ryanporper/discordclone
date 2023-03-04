@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div>
-        <button className="bg-white rounded-full p-2 text-xs">
+        <button className="bg-white hover:text-indigo-400 rounded-full p-2 text-xs">
           Open Discord
         </button>
       </div>
