@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="w-full bg-indigo-600 flex justify-center items-center text-start md:text-center">
-      <div className="py-14 px-6 lg:py-32 lg:px-24 ">
+      <div className="my-14 mx-6 lg:my-32 lg:mx-64">
         <h1 className="text-white font-bold text-2xl md:text-6xl">
           IMAGINE A PLACE...
         </h1>
